@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".peopleselection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="236dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/logo2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="ENTER TOTAL NUMBER OF MEMBERS WITH YOU"
+            android:textAllCaps="true"
+            android:textColor="#FA38E7D2"
+            android:textIsSelectable="false"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button" />
+
+        <Button
+            android:id="@+id/btnsub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textColor="#FA38E7D2"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="ENTER BOOKING ID'S OF ALL MEMBERS SEPARATED WITH COMMAS"
+            android:textAllCaps="true"
+            android:textColor="#FA38E7D2"
+            android:textIsSelectable="false"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etid"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button"
+            android:ems="10"
+            android:hint=" ENTER HERE"
+            android:inputType="textPersonName"
+            android:textAllCaps="false"
+            android:textColor="#00B0FF"
+            android:textColorHighlight="#EDFFFFFF"
+            android:textColorHint="#FA38E7D2"
+            android:textStyle="bold|italic"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textColor="#FA38E7D2"
+            android:textStyle="bold|italic"
+            android:visibility="invisible" />
+    </LinearLayout>
+</ScrollView>

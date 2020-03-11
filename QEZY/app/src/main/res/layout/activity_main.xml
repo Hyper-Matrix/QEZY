@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="248dp"
+            android:layout_height="236dp"
+            android:background="#090000"
+            app:srcCompat="@drawable/logo2" />
+
+        <EditText
+            android:id="@+id/etloc"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button"
+            android:ems="10"
+            android:hint=" Enter Location"
+            android:inputType="textPersonName"
+            android:textAllCaps="false"
+            android:textColor="#00B0FF"
+            android:textColorHighlight="#EDFFFFFF"
+            android:textColorHint="#FA38E7D2"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textColor="#FA38E7D2"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</ScrollView>
